@@ -1,0 +1,50 @@
+.search-results {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.results {
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  margin-top: auto;
+  padding: 0 3.5rem;
+}
+
+.pagination::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.pagination__btn--prev {
+  float: left;
+}
+
+.pagination__btn--next {
+  float: right;
+}
+
+.copyright {
+  color: var(--color-grey-dark-2);
+  font-size: 1.2rem;
+  padding: 0 3.5rem;
+  margin-top: 4rem;
+}
+
+.copyright .twitter-link:link,
+.copyright .twitter-link:visited {
+  color: var(--color-grey-dark-2);
+}
+/*# sourceMappingURL=searchResults.css.map */
