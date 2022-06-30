@@ -2,8 +2,8 @@
   "name": "forky-app",
   "version": "1.0.0",
   "description": "Recipe Application ",
-  "default": "index.html",
-  "scripts": {
+   "default": "index.html",
+   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
@@ -19,3 +19,4 @@
     "regenerator-runtime": "^0.13.9"
   }
 }
+
