@@ -1,0 +1,21 @@
+{
+  "name": "forky-app",
+  "version": "1.0.0",
+  "description": "Recipe Application ",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "\"Syed Abdullah Ali\"",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "core-js": "^3.23.1",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
